@@ -1,6 +1,3 @@
-Certainly! Here's a concise README for your Spotify landing page project:
-
----
 
 # Spotify Landing Page
 
