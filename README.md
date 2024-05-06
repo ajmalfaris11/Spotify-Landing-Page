@@ -14,6 +14,8 @@ This project showcases a modern and responsive landing page design inspired by t
 
 ## Preview
 
+ images/SpotifyLandingPageposter.png
+ 
 https://ajmalfaris11.github.io/Spotify-Landing-Page/
 
 ## Usage
@@ -35,7 +37,3 @@ Contributions are welcome! Feel free to submit issues or pull requests to sugges
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to adjust any details or add additional sections based on your project's specifics!
