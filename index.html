@@ -1,106 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Spotify Landing Page</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" href="images/spotify icon.png">
-        <!-- ------------- Google font cdn ---------------  -->
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-        <!-- ------------- Google icon ---------------  -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    </head> 
-    <body>
 
-        <header class="bg-black text-white">
-            <section class="wrapper h-[80px] flex justify-between max-[425px]:justify-center items-center relative">
-                <h1>
-                    <img src="images/logo.png" alt="logo" class="w-[120px]" />
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="images/spotify icon.png" />
+    <!-- ------------- Google font cdn ---------------  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet" />
+    <!-- ------------- Google icon ---------------  -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header class="bg-black text-white">
+        <section class="wrapper h-[80px] flex justify-between max-[425px]:justify-center items-center relative">
+            <h1>
+                <img src="images/logo.png" alt="logo" class="w-[120px]" />
+            </h1>
+            <ul class="flex justify-end items-center">
+                <li class="mr-10 hidden md:block">
+                    <a href="#" class="hover:text-green-600">Premium</a>
+                </li>
+                <li class="mr-10 hidden md:block">
+                    <a href="#" class="hover:text-green-600">Support</a>
+                </li>
+                <li class="mr-10 hidden md:block">
+                    <a href="#" class="hover:text-green-600">Login/Signup</a>
+                </li>
+                <li>
+                    <a href="#"
+                        class="py-2 px-7 bg-white hover:bg-green-600 rounded-full text-black max-md:mr-10 max-sm:hidden">Download</a>
+                </li>
+            </ul>
+            <span class="material-symbols-outlined md:hidden absolute right-0 max-[425px]:left-0">
+                menu
+            </span>
+        </section>
+    </header>
+
+    <section class="bg-green-600 lg:h-[calc(100vh-80px)] sm:h-[60vh] max-sm:h-auto max-sm:pt-10">
+        <section class="wrapper flex justify-between items-center h-full max-sm:flex-col">
+            <div class="left max-sm:flex max-sm:justify-center">
+                <h1
+                    class="text-[32px] min-[425px]:text-[42px] sm:text-[36px] md:text-[48px] lg:text-[60px] xl:text-[80px] max-sm:text-center font-bold mb-10 text-white leading-tight">
+                    Millions of songs <br />
+                    and podcasts, in <br />
+                    your pocket.
                 </h1>
-                <ul class="flex justify-end items-center">
-                     <li class="mr-10 hidden md:block"><a href="#" class="hover:text-green-600">Premium</a></li>
-                     <li class="mr-10 hidden md:block"><a href="#" class="hover:text-green-600">Support</a></li>
-                     <li class="mr-10 hidden md:block"><a href="#" class="hover:text-green-600">Login/Signup</a></li>
-                     <li><a href="#" class="py-2 px-7 bg-white hover:bg-green-600 rounded-full text-black max-md:mr-10 max-sm:hidden">Download</a></li>
-                </ul>
-                <span class="material-symbols-outlined  md:hidden absolute right-0 max-[425px]:left-0">
-                    menu
-                    </span>
-            </section>
-        </header>
-
-        <section class="bg-green-600 lg:h-[calc(100vh-80px)] sm:h-[60vh] max-sm:h-auto max-sm:pt-10">
-            <section class="wrapper flex justify-between items-center h-full max-sm:flex-col">
-                <div class="left max-sm:flex max-sm:justify-center">
-                    <h1 class="text-[32px] min-[425px]:text-[42px] sm:text-[36px] md:text-[48px] lg:text-[60px] xl:text-[80px] max-sm:text-center font-bold mb-10 text-white leading-tight">Millions of songs <br> and podcasts, in <br> your pocket.</h1>
-                    <a href="#" class="py-2 px-7 bg-white  rounded-full text-black hover:text-green-600 font-semibold max-sm:absolute text-center max-[425px]:-bottom-3 max-sm:-bottom-24 max-sm:hidden">Download Free</a>
-                </div>
-                <div class="right max-[425px]:h-[200px] max-sm:h-[250px]  sm:h-full flex justify-end max-sm:justify-center items-end relative">
-                    <img src="images/home-right.png" alt="image"  class="h-[120%] sm:h-[75%] md:h-[85%] lg:h-[85%] "/>
-                    <a href="#" class="py-2 px-7 bg-white rounded-full text-black font-semibold max-sm:absolute mb-3 text-center sm:hidden">Download Free</a>
-                </div>
-            </section>
+                <a href="#"
+                    class="py-2 px-7 bg-white rounded-full text-black hover:text-green-600 font-semibold max-sm:absolute text-center max-[425px]:-bottom-3 max-sm:-bottom-24 max-sm:hidden">Download
+                    Free</a>
+            </div>
+            <div
+                class="right max-[425px]:h-[200px] max-sm:h-[250px] sm:h-full flex justify-end max-sm:justify-center items-end relative">
+                <img src="images/home-right.png" alt="image" class="h-[120%] sm:h-[75%] md:h-[85%] lg:h-[85%]" />
+                <a href="#"
+                    class="py-2 px-7 bg-white rounded-full text-black font-semibold max-sm:absolute mb-3 text-center sm:hidden">Download
+                    Free</a>
+            </div>
         </section>
+    </section>
 
-        <section class="py-10 md:py-20">
-            <section class="wrapper">
-                <h1 class="text-[36px] md:text-[56px] text-center font-bold mb-10 md:mb-20">Why Spotify</h1>
-                <div class="grid grid-cols-1 gap-10 min-[900px]:flex justify-center items-start ">
-                    
-                    <div class="min-[900px]:w-[28%] sm:mr-10 max-[450px]:flex-col max-[900px]:flex-row flex-col justify-center items-center flex gap-5">
-                        <div class="flex justify-center  ">
-                            <img src="images/love.png" alt="img" class="w-[120px] transform hover:scale-90 transition duration-1000 ease-in-out">
-                        </div>
-                        <div class="max-[450px]:text-center min-[450px]:text-start min-[900px]:text-center  flex-col gap-5 justify-between max-[450px]:w-full max-[900px]:w-[75%] w-full">
-                            <h1 class="text-[20px] font-semibold mb-3">Make it yours.</h1>
-                            <p class="text-[14px]  font-medium ">Personalize your experience. Customize playlists, explore genres, discover new favorites, and tailor Spotify to your unique taste.</p>
-                        </div>
+    <section class="py-10 md:py-20">
+        <section class="wrapper">
+            <h1 class="text-[36px] md:text-[56px] text-center font-bold mb-10 md:mb-20">
+                Why Spotify
+            </h1>
+            <div class="grid grid-cols-1 gap-10 min-[900px]:flex justify-center items-start">
+                <div
+                    class="min-[900px]:w-[28%] sm:mr-10 max-[450px]:flex-col max-[900px]:flex-row flex-col justify-center items-center flex gap-5">
+                    <div class="flex justify-center">
+                        <img src="images/love.png" alt="img"
+                            class="w-[120px] transform hover:scale-90 transition duration-1000 ease-in-out" />
                     </div>
-    
-                    <div class="min-[900px]:w-[28%] sm:mr-10 max-[450px]:flex-col max-[900px]:flex-row flex-col justify-center items-center flex gap-5">
-                        <div class="flex justify-center  ">
-                            <img src="images/playlist.png" alt="img" class="w-[120px] transform hover:scale-90 transition duration-1000 ease-in-out">
-                        </div>
-                        <div class="max-[450px]:text-center min-[450px]:text-start min-[900px]:text-center  flex-col gap-5 justify-between max-[450px]:w-full max-[900px]:w-[75%] w-full">
-                            <h1 class="text-[20px] font-semibold mb-3">Playlist made easy.</h1>
-                            <p class="text-[14px]  font-medium ">Effortless playlist creation. Personalize your mix. Simplify music curation. Tailor your sound. Make playlists uniquely yours.</p>
-                        </div>
+                    <div
+                        class="max-[450px]:text-center min-[450px]:text-start min-[900px]:text-center flex-col gap-5 justify-between max-[450px]:w-full max-[900px]:w-[75%] w-full">
+                        <h1 class="text-[20px] font-semibold mb-3">Make it yours.</h1>
+                        <p class="text-[14px] font-medium">
+                            Personalize your experience. Customize playlists, explore
+                            genres, discover new favorites, and tailor Spotify to your
+                            unique taste.
+                        </p>
                     </div>
-
-                    <div class="min-[900px]:w-[28%] sm:mr-10 max-[450px]:flex-col max-[900px]:flex-row flex-col justify-center items-center flex gap-5">
-                        <div class="flex justify-center  items-center h-full">
-                            <img src="images/play.png" alt="img" class="w-[120px] transform hover:scale-90 transition duration-1000 ease-in-out">
-                        </div>
-                        <div class="max-[450px]:text-center min-[450px]:text-start min-[900px]:text-center  flex-col gap-5 justify-between max-[450px]:w-full max-[900px]:w-[75%] w-full">
-                            <h1 class="text-[20px] font-semibold mb-3">Play for you favorite.</h1>
-                            <p class="text-[14px]  font-medium ">Play your favorites. Enjoy your top picks. Dive into beloved tunes. Let your favorites take center stage.</p>
-                        </div>
-                    </div>           
                 </div>
-            </section>
-        </section>
 
-        <section class="py-10 sm:py-16 bg-green-600">
-            <section class="wrapper text-center">
-                <h1 class="text-center text-[32px] sm:text-[48px] md:text-[56px] font-bold mb-6">Ready, Let's play !</h1>
-                <a href="#" class="py-2 px-7 text-[14px] sm:text-[18px] bg-white rounded-full text-black font-semibold hover:text-green-600">DOWNLOAD SPOTIFY FREE</a>
-            </section>
-        </section>
+                <div
+                    class="min-[900px]:w-[28%] sm:mr-10 max-[450px]:flex-col max-[900px]:flex-row flex-col justify-center items-center flex gap-5">
+                    <div class="flex justify-center">
+                        <img src="images/playlist.png" alt="img"
+                            class="w-[120px] transform hover:scale-90 transition duration-1000 ease-in-out" />
+                    </div>
+                    <div
+                        class="max-[450px]:text-center min-[450px]:text-start min-[900px]:text-center flex-col gap-5 justify-between max-[450px]:w-full max-[900px]:w-[75%] w-full">
+                        <h1 class="text-[20px] font-semibold mb-3">
+                            Playlist made easy.
+                        </h1>
+                        <p class="text-[14px] font-medium">
+                            Effortless playlist creation. Personalize your mix. Simplify
+                            music curation. Tailor your sound. Make playlists uniquely
+                            yours.
+                        </p>
+                    </div>
+                </div>
 
-        <footer class="bg-black text-white">
-            <section class="wrapper py-5 flex max-sm:flex-col sm:justify-between ">
-                <ul class="flex justify-center items-center">
-                     <li class="mr-5 sm:mr-10"><a href="#"  class="hover:text-green-600">Home</a></li>
-                     <li class="mr-5 sm:mr-10"><a href="#"  class="hover:text-green-600">About</a></li>
-                     <li class="mr-5 sm:mr-10"><a href="#"  class="hover:text-green-600">Blog</a></li>
-                     <li class="mr-5 sm:mr-10"><a href="#"  class="hover:text-green-600">Contact</a></li>
-                </ul>
-                <p class="text-[12px] max-sm:text-center max-sm:mt-4 flex items-center justify-center sm:justify-">© 2021 spotify, all rights reserved</p>
-            </section>
-        </footer>
-    </body>
+                <div
+                    class="min-[900px]:w-[28%] sm:mr-10 max-[450px]:flex-col max-[900px]:flex-row flex-col justify-center items-center flex gap-5">
+                    <div class="flex justify-center items-center h-full">
+                        <img src="images/play.png" alt="img"
+                            class="w-[120px] transform hover:scale-90 transition duration-1000 ease-in-out" />
+                    </div>
+                    <div
+                        class="max-[450px]:text-center min-[450px]:text-start min-[900px]:text-center flex-col gap-5 justify-between max-[450px]:w-full max-[900px]:w-[75%] w-full">
+                        <h1 class="text-[20px] font-semibold mb-3">
+                            Play for you favorite.
+                        </h1>
+                        <p class="text-[14px] font-medium">
+                            Play your favorites. Enjoy your top picks. Dive into beloved
+                            tunes. Let your favorites take center stage.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="py-10 sm:py-16 bg-green-600">
+        <section class="wrapper text-center">
+            <h1 class="text-center text-[32px] sm:text-[48px] md:text-[56px] font-bold mb-6">
+                Ready, Let's play !
+            </h1>
+            <a href="#"
+                class="py-2 px-7 text-[14px] sm:text-[18px] bg-white rounded-full text-black font-semibold hover:text-green-600">DOWNLOAD
+                SPOTIFY FREE</a>
+        </section>
+    </section>
+
+    <footer class="bg-black text-white">
+        <section class="wrapper py-5 flex max-sm:flex-col sm:justify-between">
+            <ul class="flex justify-center items-center">
+                <li class="mr-5 sm:mr-10">
+                    <a href="#" class="hover:text-green-600">Home</a>
+                </li>
+                <li class="mr-5 sm:mr-10">
+                    <a href="#" class="hover:text-green-600">About</a>
+                </li>
+                <li class="mr-5 sm:mr-10">
+                    <a href="#" class="hover:text-green-600">Blog</a>
+                </li>
+                <li class="mr-5 sm:mr-10">
+                    <a href="#" class="hover:text-green-600">Contact</a>
+                </li>
+            </ul>
+            <p class="text-[12px] max-sm:text-center max-sm:mt-4 flex items-center justify-center sm:justify-">
+                © 2021 spotify, all rights reserved
+            </p>
+        </section>
+    </footer>
+</body>
+
 </html>
